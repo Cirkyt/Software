@@ -1,0 +1,123 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Imran\Downloads\nrf51_sdk_v6_1_0_b2ec2e6\nrf51822\Board\nrf6310\s110\ble_app\arm\ble_app_template.uvprojx
+Project File Date:  12/02/2014
+
+<h2>Output:</h2>
+Build target 'nrf51822_xxaa_s110 (256K)'
+compiling ble_ans_c.c...
+..\device_manager.h(72): error:  #5: cannot open source input file "device_manager_cnfg.h": No such file or directory
+  #include "device_manager_cnfg.h"
+..\..\..\..\..\Source\ble\ble_services\ble_ans_c.c: 0 warnings, 1 error
+creating preprocessor file for ble_srv_common.c...
+compiling ble_srv_common.c...
+compiling nrf_soc.c...
+..\..\..\..\..\Source\sdk_soc\nrf_soc.c(19): error:  #147-D: declaration is incompatible with "uint32_t sd_nvic_EnableIRQ(IRQn_Type)__svc(38)" (declared at line 378 of "..\..\..\..\..\Include\s110\nrf_soc.h")
+  uint32_t sd_nvic_EnableIRQ(IRQn_Type IRQn)
+..\..\..\..\..\Source\sdk_soc\nrf_soc.c(25): error:  #147-D: declaration is incompatible with "uint32_t sd_nvic_DisableIRQ(IRQn_Type)__svc(39)" (declared at line 390 of "..\..\..\..\..\Include\s110\nrf_soc.h")
+  uint32_t sd_nvic_DisableIRQ(IRQn_Type IRQn)
+..\..\..\..\..\Source\sdk_soc\nrf_soc.c(31): error:  #147-D: declaration is incompatible with "uint32_t sd_nvic_GetPendingIRQ(IRQn_Type, uint32_t *)__svc(40)" (declared at line 403 of "..\..\..\..\..\Include\s110\nrf_soc.h")
+  uint32_t sd_nvic_GetPendingIRQ(IRQn_Type IRQn, uint32_t * p_pending_irq)
+..\..\..\..\..\Source\sdk_soc\nrf_soc.c(41): error:  #147-D: declaration is incompatible with "uint32_t sd_nvic_SetPendingIRQ(IRQn_Type)__svc(41)" (declared at line 415 of "..\..\..\..\..\Include\s110\nrf_soc.h")
+  uint32_t sd_nvic_SetPendingIRQ(IRQn_Type IRQn)
+..\..\..\..\..\Source\sdk_soc\nrf_soc.c(47): error:  #147-D: declaration is incompatible with "uint32_t sd_nvic_ClearPendingIRQ(IRQn_Type)__svc(42)" (declared at line 427 of "..\..\..\..\..\Include\s110\nrf_soc.h")
+  uint32_t sd_nvic_ClearPendingIRQ(IRQn_Type IRQn)
+..\..\..\..\..\Source\sdk_soc\nrf_soc.c(53): error:  #147-D: declaration is incompatible with "uint32_t sd_nvic_SetPriority(IRQn_Type, nrf_app_irq_priority_t)__svc(43)" (declared at line 442 of "..\..\..\..\..\Include\s110\nrf_soc.h")
+  uint32_t sd_nvic_SetPriority(IRQn_Type IRQn, nrf_app_irq_priority_t priority)
+..\..\..\..\..\Source\sdk_soc\nrf_soc.c(59): error:  #147-D: declaration is incompatible with "uint32_t sd_nvic_GetPriority(IRQn_Type, nrf_app_irq_priority_t *)__svc(44)" (declared at line 455 of "..\..\..\..\..\Include\s110\nrf_soc.h")
+  uint32_t sd_nvic_GetPriority(IRQn_Type IRQn, nrf_app_irq_priority_t * p_priority)
+..\..\..\..\..\Source\sdk_soc\nrf_soc.c(70): error:  #147-D: declaration is incompatible with "uint32_t sd_nvic_SystemReset(void)__svc(45)" (declared at line 462 of "..\..\..\..\..\Include\s110\nrf_soc.h")
+  uint32_t sd_nvic_SystemReset(void)
+..\..\..\..\..\Source\sdk_soc\nrf_soc.c(76): error:  #147-D: declaration is incompatible with "uint32_t sd_nvic_critical_region_enter(uint8_t *)__svc(46)" (declared at line 474 of "..\..\..\..\..\Include\s110\nrf_soc.h")
+  uint32_t sd_nvic_critical_region_enter(uint8_t * p_is_nested_critical_region)
+..\..\..\..\..\Source\sdk_soc\nrf_soc.c(86): error:  #147-D: declaration is incompatible with "uint32_t sd_nvic_critical_region_exit(uint8_t)__svc(47)" (declared at line 485 of "..\..\..\..\..\Include\s110\nrf_soc.h")
+  uint32_t sd_nvic_critical_region_exit(uint8_t is_nested_critical_region)
+..\..\..\..\..\Source\sdk_soc\nrf_soc.c: 0 warnings, 10 errors
+".\_build\ble_app_template.axf" - 11 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.1.1.pack
+                ARM::CMSIS:CORE:3.30.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.30.0
+
+Package Vendor: NordicSemiconductor
+                http://www.keil.com/pack/NordicSemiconductor.nRF_DeviceFamilyPack.1.1.1.pack
+                NordicSemiconductor::Device:Startup:1.0.0
+                Nordic Semiconductor nRF ARM devices Device Family Pack.
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Imran\Downloads\nrf51_sdk_v6_1_0_b2ec2e6\nrf51822\Board\nrf6310\s110\ble_app\arm\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.30.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+
+   * Component: NordicSemiconductor::Device:Startup:1.0.0
+      Source file:   Device\Source\arm\arm_startup_nrf51.s
+      Source file:   Device\Source\system_nrf51.c
+      Include file:  Device\Include\system_nrf51.h
+Target not created
+</pre>
+</body>
+</html>
+_build\ble_app_template.axf" - 15 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.1.1.pack
+                ARM::CMSIS:CORE:3.30.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.30.0
+
+Package Vendor: NordicSemiconductor
+                http://www.keil.com/pack/NordicSemiconductor.nRF_DeviceFamilyPack.1.1.1.pack
+                NordicSemiconductor::Device:Startup:1.0.0
+                Nordic Semiconductor nRF ARM devices Device Family Pack.
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Imran\Downloads\nrf51_sdk_v6_1_0_b2ec2e6\nrf51822\Board\nrf6310\s110\ble_app\arm\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.30.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+
+   * Component: NordicSemiconductor::Device:Startup:1.0.0
+      Source file:   Device\Source\arm\arm_startup_nrf51.s
+      Source file:   Device\Source\system_nrf51.c
+      Include file:  Device\Include\system_nrf51.h
+Target not created
+      http://www.keil.com/pack/NordicSemiconductor.nRF_DeviceFamilyPack.1.1.1.pack
+                NordicSemiconductor::Device:Startup:1.0.0
+                Nordic Semiconductor nRF ARM devices Device Family Pack.
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Imran\Downloads\nrf51_sdk_v6_1_0_b2ec2e6\nrf51822\Board\nrf6310\s110\ble_app\arm\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.30.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+
+   * Component: NordicSemiconductor::Device:Startup:1.0.0
+      Source file:   Device\Source\arm\arm_startup_nrf51.s
+      Source file:   Device\Source\system_nrf51.c
+      Include file:  Device\Include\system_nrf51.h
+Target not created

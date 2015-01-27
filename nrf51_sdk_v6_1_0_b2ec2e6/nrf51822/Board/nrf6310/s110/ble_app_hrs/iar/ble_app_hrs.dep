@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2932384912</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\..\Source\ble\ble_advdata.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Source\ble\ble_conn_params.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Source\app_common\app_timer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Source\ble\ble_debug_assert_handler.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Source\ble\ble_radio_notification.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Source\ble\ble_sensorsim.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Source\ble\ble_services\ble_srv_common.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Source\app_common\crc16.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Source\ble\ble_error_log.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Source\ble\ble_flash.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Source\ble\ble_services\ble_dis.c</file>
+      <file>$PROJ_DIR$\..\main.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Source\templates\system_nrf51.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Source\app_common\pstorage.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Source\ble\ble_services\ble_bas.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Source\ble\ble_services\ble_hrs.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Source\sd_common\softdevice_handler.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Source\ble\device_manager\device_manager_peripheral.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Source\templates\iar\iar_startup_nrf51.s</file>
+      <file>$PROJ_DIR$\_build\crc16.o</file>
+      <file>$PROJ_DIR$\_build\softdevice_handler.o</file>
+      <file>$PROJ_DIR$\_build\ble_bas.o</file>
+      <file>$PROJ_DIR$\_build\ble_advdata.pbi</file>
+      <file>$PROJ_DIR$\_build\ble_flash.pbi</file>
+      <file>$PROJ_DIR$\_build\ble_debug_assert_handler.pbi</file>
+      <file>$PROJ_DIR$\_build\iar_startup_nrf51.o</file>
+      <file>$PROJ_DIR$\_build\ble_conn_params.pbi</file>
+      <file>$PROJ_DIR$\_build\device_manager_peripheral.o</file>
+      <file>$PROJ_DIR$\_build\ble_srv_common.o</file>
+      <file>$PROJ_DIR$\_build\pstorage.o</file>
+      <file>$PROJ_DIR$\_build\ble_srv_common.pbi</file>
+      <file>$PROJ_DIR$\_build\ble_hrs.o</file>
+      <file>$PROJ_DIR$\_build\ble_dis.o</file>
+      <file>$PROJ_DIR$\_build\ble_radio_notification.pbi</file>
+      <file>$PROJ_DIR$\_build\ble_sensorsim.pbi</file>
+      <file>$PROJ_DIR$\_build\main.o</file>
+      <file>$PROJ_DIR$\_build\ble_sensorsim.o</file>
+      <file>$PROJ_DIR$\_build\system_nrf51.o</file>
+      <file>$PROJ_DIR$\_build\app_timer.pbi</file>
+      <file>$PROJ_DIR$\_build\ble_error_log.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\ble\ble_sensorsim.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\s110\ble_l2cap.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\s110\ble_hci.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\s110\ble_gatt.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\ble\ble_services\ble_srv_common.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\s110\ble_types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\s110\ble_ranges.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\s110\ble_gap.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\ble\ble_advdata.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\ble\ble_conn_params.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\s110\ble_gattc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\nordic_common.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\s110\ble_gatts.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\s110\ble_err.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\app_common\crc16.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\s110\ble.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\ble\ble_flash.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\ble\ble_error_log.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\ble\ble_debug_assert_handler.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\ble\ble_radio_notification.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\app_common\pstorage.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\nrf_gpio.h</file>
+      <file>$PROJ_DIR$\..\pstorage_platform.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\s110\nrf_svc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\app_common\app_timer.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm0.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\nrf.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\nrf51_deprecated.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\compiler_abstraction.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\app_common\app_scheduler.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\nrf_delay.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\s110\nrf_error.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\system_nrf51.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\nrf51_bitfields.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\app_common\app_util.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmInstr.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\s110\nrf_error_soc.h</file>
+      <file>$PROJ_DIR$\_build\pstorage.pbi</file>
+      <file>$PROJ_DIR$\_build\ble_bas.pbi</file>
+      <file>$PROJ_DIR$\_build\ble_hrs.pbi</file>
+      <file>$PROJ_DIR$\_build\crc16.pbi</file>
+      <file>$PROJ_DIR$\_build\softdevice_handler.pbi</file>
+      <file>$PROJ_DIR$\_build\c.out</file>
+      <file>$PROJ_DIR$\_build\ble_app_hrs.pbd</file>
+      <file>$PROJ_DIR$\_build\device_manager_peripheral.pbi</file>
+      <file>$PROJ_DIR$\_build\ble_dis.pbi</file>
+      <file>$PROJ_DIR$\_build\main.pbi</file>
+      <file>$PROJ_DIR$\_build\system_nrf51.pbi</file>
+      <file>$PROJ_DIR$\_build\ble_app_hrs.hex</file>
+      <file>$PROJ_DIR$\_build\ble_radio_notification.o</file>
+      <file>$PROJ_DIR$\_build\ble_conn_params.o</file>
+      <file>$PROJ_DIR$\_build\ble_debug_assert_handler.o</file>
+      <file>$PROJ_DIR$\_build\ble_error_log.o</file>
+      <file>$PROJ_DIR$\_build\app_timer.o</file>
+      <file>$PROJ_DIR$\_build\ble_flash.o</file>
+      <file>$PROJ_DIR$\_build\ble_advdata.o</file>
+      <file>$PROJ_DIR$\..\device_manager_cnfg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\sdk\sdk_errors.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\sdk\sdk_common.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\sdk\sdk_os.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\app_common\app_trace.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\ble\device_manager\device_manager.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\sd_common\ble_stack_handler_types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\nrf_assert.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\ble\ble_services\ble_bas.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\s110\nrf_error_sdm.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\ble\ble_services\ble_hrs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\ble\ble_services\ble_dis.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\sd_common\ant_stack_handler_types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\sd_common\softdevice_handler.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\s110\nrf_sdm.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\bootloader_dfu\dfu_app_handler.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\boards\nrf6310.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\ble\ble_services\ble_dfu.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\boards.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\nrf51.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\app_common\app_error.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\sd_common\app_util_platform.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\s110\nrf_soc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+      <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+      <file>$PROJ_DIR$\ble_app_hrs.icf</file>
+      <file>$TOOLKIT_DIR$\lib\dl6M_tln.a</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Source\ble\ble_advdata.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 130 51 44 46 57 65 45 49 69 134 79 47 68 85 82 133 52 41 53 48 42 136 78 76 72 54 55 75</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49 68 134 130 136 76 72 69 78 133 42 79 52 57 47 46 48 65 41 55 82 44 51 54 85 75 53 45</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Source\ble\ble_conn_params.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 103</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 65 131 134 130 47 76 66 45 136 78 41 46 53 85 68 72 51 55 48 133 86 43 57 69 54 82 75 79 80 67 50 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 68 134 130 136 76 72 69 78 57 47 46 48 65 41 55 82 44 51 54 45 133 85 75 86 79 53 43 66 77 67 131 80</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Source\app_common\app_timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 106</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 130 133 132 131 134 135 136 128 129 81 80 67 68 69 74 65 86 84 85 77 75 78 76 72 79 82 70 83 71 73 66 87 88 89</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66 68 134 130 136 76 72 69 78 133 77 79 67 131 82 85 75 80 86 129 70 87 74 128 88 83 84 135 65 89 81 71 73 132</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Source\ble\ble_debug_assert_handler.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 104</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 129 69 52 68 53 72 87 130 78 76 134 74 42 59 136 79 70 83 88 128 58 60 133</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 60 68 134 130 136 76 72 69 78 42 79 52 129 70 87 74 128 88 83 59 133 58 53</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Source\ble\ble_radio_notification.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 102</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69 84 133 72 87 134 130 78 76 129 89 88 70 86 68 135 136 65 83 74 128 79 61 82</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61 68 134 130 136 76 72 69 78 133 135 65 129 70 87 74 128 88 83 84 89 82 86 79</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Source\ble\ble_sensorsim.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78 68 76 130 134 69 72 40 136 133</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40 68 134 130 136 76 72 69 78 133</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Source\ble\ble_services\ble_srv_common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 28</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 130 85 134 53 133 44 136 65 47 79 42 131 68 46 48 69 78 76 72 75 52 45 82</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 45 68 134 130 136 76 72 69 78 133 46 85 75 48 47 65 44 42 79 52 53 131 82</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Source\app_common\crc16.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 19</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72 69 134 79 130 78 76 77 68 136 56 67</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 56 68 134 130 136 76 72 69 78 77 79 67</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Source\ble\ble_error_log.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 105</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 130 68 75 62 74 58 59 70 87 133 84 131 69 134 83 88 129 85 63 79 52 136 78 76 72 128 82 64 42</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 42 134 130 136 76 72 69 78 79 52 68 133 129 70 87 74 128 88 83 59 58 85 75 131 82 63 84 62 64</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Source\ble\ble_flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 128 72 134 84 135 133 69 68 74 52 89 73 82 130 78 76 70 83 129 86 42 53 71 85 136 87 88 79 58 65 75</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 58 68 134 130 136 76 72 69 78 133 129 70 87 74 128 88 83 86 79 42 52 135 65 84 89 82 53 71 73 75 85</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Source\ble\ble_services\ble_dis.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 98</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46 68 134 133 47 54 136 130 42 45 44 65 86 131 53 85 69 78 76 72 75 79 48 55 120 52 82 41</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 120 68 134 130 136 76 72 69 78 45 133 46 85 75 48 47 65 44 86 79 42 52 131 82 54 41 55 53</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 131 88 120 134 47 44 42 62 70 89 79 68 84 66 69 83 74 53 80 49 50 129 45 57 112 63 43 117 40 132 130 52 73 87 46 133 54 85 71 119 126 124 127 122 59 114 60 113 136 78 76 72 75 128 48 65 55 41 121 118 109 82 51 125 86 123 115 135 77 67 58 111 110 64</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68 134 130 136 76 72 69 78 42 79 52 53 71 129 70 87 74 128 88 83 84 73 75 131 133 82 63 57 47 46 48 65 41 55 44 51 54 43 45 85 49 117 119 120 126 124 50 127 125 40 122 86 123 135 89 118 80 115 121 66 77 67 59 58 114 111 112 110 109 60 62 64 113 132</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Source\templates\system_nrf51.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72 69 88 71 130 78 76 84 87 133 134 136 129 73 70 83 68 74 128 75</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68 134 130 136 76 72 69 78 133 71 129 70 87 74 128 88 83 84 73 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Source\app_common\pstorage.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69 82 62 134 75 42 71 89 85 130 84 68 128 129 86 53 116 135 64 136 78 76 72 79 52 73 70 83 87 88 74 133 65</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 62 64 68 134 130 136 76 72 69 78 86 79 42 52 53 82 116 71 129 70 87 74 128 88 83 84 73 75 135 133 65 89 85</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Source\ble\ble_services\ble_bas.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 21</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 134 69 46 75 53 45 51 65 55 48 130 117 85 133 47 41 44 68 42 57 136 78 76 72 54 82 79 52</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 117 68 134 130 136 76 72 69 78 133 57 47 46 48 65 41 55 82 44 51 54 45 85 75 42 79 52 53</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Source\ble\ble_services\ble_hrs.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 65 45 48 68 85 130 41 46 44 42 133 69 134 51 55 119 53 57 136 78 76 72 54 82 75 79 52</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 119 68 134 130 136 76 72 69 78 133 57 47 46 48 65 41 55 82 44 51 54 45 85 75 42 79 52 53</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Source\sd_common\softdevice_handler.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 20</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83 47 72 116 115 130 129 88 70 85 86 57 123 74 133 41 131 80 69 134 136 78 76 118 87 68 82 46 122 53 135 121 79 65 128 84 89 51 55 44 75 48 54</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 122 86 134 130 136 76 72 69 78 79 53 123 65 129 70 68 87 74 128 88 83 135 133 84 89 82 118 131 80 85 75 115 57 47 46 48 41 55 44 51 54 121 116</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Source\ble\device_manager\device_manager_peripheral.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 130 65 78 134 57 136 133 113 131 76 114 43 85 109 72 112 82 44 47 64 49 62 68 111 48 69 53 54 46 79 42 75 110 52 41 51 55 77 67</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 114 68 134 130 136 76 72 69 78 133 111 42 79 52 53 75 112 110 82 85 57 47 46 48 65 41 55 44 51 54 109 113 77 67 49 62 64 43 131</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Source\templates\iar\iar_startup_nrf51.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\_build\c.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 101</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 139 106 108 21 103 104 32 105 107 31 102 36 28 19 27 25 35 29 20 37 141 137 138 140</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 95</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

@@ -1,0 +1,11 @@
+.\_build\ml_math_func.o: ..\ml_math_func.c
+.\_build\ml_math_func.o: ..\mlmath.h
+.\_build\ml_math_func.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\_build\ml_math_func.o: ..\ml_math_func.h
+.\_build\ml_math_func.o: ..\mltypes.h
+.\_build\ml_math_func.o: ..\stdint_invensense.h
+.\_build\ml_math_func.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\_build\ml_math_func.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\errno.h
+.\_build\ml_math_func.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\_build\ml_math_func.o: ..\mlinclude.h
+.\_build\ml_math_func.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
